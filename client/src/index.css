@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: darkviolet; */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Header */
+.nav{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-logo{
+  padding-left: 20px;
+}
+.nav a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: bolder;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links div{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.nav-links div a:hover{
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
+/* teacher */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.flex-item-left {
+  /* background-color: white; */
+  padding: 10px;
+  flex: 60%;
+}
+
+.flex-item-right {
+  /* background-color: white; */
+  padding: 10px;
+  flex: 40%;
+}
+.flex-item-right a {
+  text-decoration: none !important;
+  /* text-decoration-color:black !important ; */
+
+
+}
+.flex-container {
+  background-color: whitesmoke !important;
+}
+.card-course {
+  border: 2px solid black !important;
+  box-shadow: 2px 4px black;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom:1rem;
+  color: black;
+  background-color: rgb(152, 219, 152);
+}
+.card-data {
+  flex: 80%;
+}
+.card-button {
+  align-self: center;
+  padding-right: 4rem;
+  flex: 20%;
+}
+.card-body {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+.card-body div{
+  margin: 1rem;
+}
+.course-heading {
+  font-weight: bolder;
+  text-align: left;
+}
+.course-code {
+
+  font-weight: 500;
+}
+.course-pass-mark{
+
+  font-weight: 500;
+}
+.course-time-limit{
+
+  font-weight: 500;
+}
+/* Course Add */
+
+.course-add {
+  color: black;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bolder;
+}
+.course-add:hover {
+  background-color:#bf7061;
+  color: white;
+}
+
+/* Add Course Page */
+.whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.form-wrapper{
+  padding: 4rem;
+  border: 1px solid #2d2d2d;
+}
+.course-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.course-flex-item-left {
+  background-color: white;
+  padding: 10px;
+  flex: 70%;
+}
+
+.course-flex-item-right {
+  background-color: white;
+  padding: 10px;
+  flex: 30%;
+}
+
+/* Quiz screen  */
+.quiz-screen-wrapper {
+  padding: 2rem;
+  border: 2px solid lightblue;
+  box-shadow: 10px 5px gray;
+  background-color: lightblue;
+}
+
+.display-question {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  min-height: 200px;
+}
+.display-question-text {
+  flex: 50%;
+  align-self: center;
+}
+.display-question-option {
+  flex: 50%;
+  align-self: center;
+}
+.display-question-suboption{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+.display-question-suboption-success {
+  background-color: rgb(35, 167, 35);
+}
+.display-question-suboption-failure {
+  background-color: rgb(175, 35, 35);
+}

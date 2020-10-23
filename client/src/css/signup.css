@@ -1,0 +1,18 @@
+.crd {
+    margin: 0 auto; 
+    float: none; 
+    max-height:500px;
+    max-width:400px;
+    top:100px;
+}
+.content{
+    text-align: center;
+    align-items: center;
+}
+.selectUser{
+    height:40px;
+    width:200px;
+}
+.selectuserDiv{
+    height:80px
+}
